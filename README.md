@@ -1,4 +1,4 @@
-# IoT-Based Heart Disease Risk Prediction System 💓⚠️
+# IoT-Based Heart Disease Risk Prediction System
 
 This project presents a real-time heart disease risk prediction system that integrates **IoT simulation, MQTT communication, and Machine Learning**. It demonstrates how AI can enhance IoT-based healthcare monitoring systems.
 
@@ -6,7 +6,7 @@ This project presents a real-time heart disease risk prediction system that inte
 
 ## Project Overview
 
-The system simulates real-time patient health data using an ESP32 (via Wokwi), transmits it using MQTT, processes it through a backend ML model, and visualizes the results on a live dashboard.
+The system simulates real-time patient health data using an ESP32 (via Wokwi), transmits it using MQTT, processes it through a backend ML model, and visualizes the results on a live dashboard. Random Forest achieves the best predictive performance with an accuracy of 0.928, AUC of 0.988, and F1-score of 0.932. Beyond model accuracy, the system is assessed under streaming conditions, achieving an average latency of 3.13 ms, throughput of 53.66 messages per second, and zero packet loss.
 
 ---
 
@@ -38,7 +38,6 @@ The system simulates real-time patient health data using an ESP32 (via Wokwi), t
 
 ## Machine Learning Model
 
-- Algorithm: XGBoost Classifier
 - Preprocessing:
   - Missing value handling
   - Feature scaling (StandardScaler)
